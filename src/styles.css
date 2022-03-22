@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.my-container {
+    @apply xl:px-36 lg:px-14 md:px-8 px-8 w-full;
+  }
+  
+  .link-hover {
+    @apply relative before:absolute hover:before:w-full before:bottom-0 before:bg-btn-color-primary before:h-[2px];
+  }
+  
